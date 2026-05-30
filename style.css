@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #C0C0C0;
+    color: white;
+    padding: 40px;
+}
+
+main {
+    margin-top: 50px;
+}
+
+button {
+    background-color:  #C0C0C0;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:  #C0C0C0;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}

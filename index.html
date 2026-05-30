@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>No Bullets Til They're Beautiful</title>
+    <meta name="description" content="No Bullets Til They're Beautiful - Cole Bosau & Miles Bosau">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            overflow: hidden;
+            background: black;
+        }
+
+        .background-image {
+            width: 100vw;
+            height: 100vh;
+            object-fit: contain;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        /* Hidden SEO text */
+        .seo-text {
+            position: absolute;
+            left: -9999px;
+            opacity: 0;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Fullscreen Background Image -->
+    <img 
+        src="images/band_website.png"
+        alt="No Bullets Til They're Beautiful - Cole Bosau and Miles Bosau" 
+        class="background-image"
+    >
+
+    <!-- Hidden SEO Text -->
+    <div class="seo-text">
+        No Bullets Til They're Beautiful
+        Cole Bosau
+        Miles Bosau
+    </div>
+
+</body>
+</html>
